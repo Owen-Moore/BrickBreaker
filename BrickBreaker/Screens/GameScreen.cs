@@ -103,8 +103,6 @@ namespace BrickBreaker
             int powerUpSize = ballSize / 2;
             powerUp = new PowerUp(powerUpX, powerUpY, powerUpSpeed, powerUpSize);
 
-
-
         }
 
 
@@ -378,8 +376,6 @@ namespace BrickBreaker
 
             //redraw the screen
             Refresh();
-
-
         }
 
         public void OnEnd()
